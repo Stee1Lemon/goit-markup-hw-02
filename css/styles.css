@@ -1,23 +1,81 @@
+/* Global settings */
 :root {
   --dominant-color: #ffffff;
-  --main-headlines-color: #2e2f42;
-  --main-text-color: #434455;
-  --main-blue-color: #4d5ae5;
-  --inside-buttons-color: #f4f4fd;
-  /* --border-buttons-color: #E7E9FC; */
+  --primary-brand-iris-color: #4d5ae5;
+  --pressed-state-ocean-color: #404BBF;
+  --dark-navy-blue-color: #2e2f42;
+  /* --success-green-color: #31D0AA; */
+  --text-slate-color: #434455;
+  /* --subtle-text-light-slate-color: #8E8F99; */
+  /* --accent-cornflower-color: #E7E9FC; */
+  --light-cloud-color: #f4f4fd;
+  /* --modal-overlay-navy-blue-modal-color: #2E2F42; */
+  --hero-background-grey-color: #2e2f42;
 }
-
 body {
-  font-family: Roboto;
-  color: var(--main-text-color);
-}
-.logo {
-    font-family: raleway;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.3;
-    color: var(--main-headlines-color)
+  font-family: Roboto, sans-serif;
+  color: var(--text-slate-color);
+  background-color: var(--dominant-color);
+  font-size: 16px;
 }
 .list {
-    list-style-type: none;
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
+}
+/* Logo */
+.logo {
+  font-family: raleway;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  color: var(--dark-navy-blue-color);
+}
+.logo:hover,
+.logo:focus {
+  color: var(--pressed-state-ocean-color);
+}
+/* Navigation */
+.site-nav .link {
+  color: var(--dark-navy-blue-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--pressed-state-ocean-color);
+}
+/* Contacts */
+.auth-nav .link {
+  color: var(--text-slate-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--primary-brand-iris-color);
+}
+/* Hero */
+.hero-title {
+  color: var(--dominant-color);
+  background-color: var(--hero-background-grey-color);
+}
+
+/* Sections */
+.section-title {
+  color: var(--dark-navy-blue-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+}
+.title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
 }
