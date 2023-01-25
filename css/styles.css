@@ -37,6 +37,9 @@ body {
 .link {
   text-decoration: none;
 }
+.header-link.current {
+  color: var(--pressed-state-ocean-color);
+}
 /* Logo */
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -114,6 +117,9 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+}
+.section-card {
+  background-color: var(--dominant-color);
 }
 .text {
   line-height: 1.5;
