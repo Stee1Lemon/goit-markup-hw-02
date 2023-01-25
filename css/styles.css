@@ -159,3 +159,15 @@ body {
   background-color: var(--pressed-state-ocean-color);
   cursor: pointer;
 }
+.portfolio-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark-navy-blue-color);
+}
+.portfolio-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-slate-color);
+}
