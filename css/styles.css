@@ -96,7 +96,7 @@ body {
 }
 .hero-btn:hover,
 .hero-btn:focus {
-  color: var(--pressed-state-ocean-color);
+  background-color: var(--pressed-state-ocean-color);
   cursor: pointer;
 }
 /* Sections */
